@@ -61,15 +61,20 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 40%;
   height: 100%;
   margin-left: 3em;
 }
 #topContent h1 {
   color: #fefeff;
+  font-size: 40pt;
+  margin-bottom: 0.2em;
 }
 #topContent p {
   color: #bca8ff;
+  font-size: 20pt;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 #bigimage {
   position: absolute;
