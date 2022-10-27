@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mock Up</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -12,10 +12,10 @@
       <header>
         <div id="top-left">
           <img src="/assets/logo.svg" id="logo" />
-          <div><a>Browse</a></div>
-          <div><a>Landings</a></div>
-          <div><a>Pages</a></div>
-          <div><a>Accounts</a></div>
+          <div class="toplink"><a>Browse</a></div>
+          <div class="toplink"><a>Landings</a></div>
+          <div class="toplink"><a>Pages</a></div>
+          <div class="toplink"><a>Accounts</a></div>
         </div>
         <div id="top-right">
           <div id="notes"></div>
@@ -24,13 +24,17 @@
       </header>
       <div id="top">
         <div id="topContent">
-          <h1></h1>
-          <p></p>
+          <h1>Welcome Web Students!</h1>
+          <p>
+            Hand-picked Instructor and expertly crafted courses, designed for
+            the modern students and entrepreneur
+          </p>
           <div id="topButtons">
-            <button></button>
-            <button></button>
+            <button class="white">Browse Courses</button>
+            <button class="green">Are You Instructor?</button>
           </div>
         </div>
+        <div id="bigimage"><img src="/assets/hero-img.png" /></div>
       </div>
       <div id="middle">
         <div></div>
@@ -38,45 +42,57 @@
         <div></div>
       </div>
       <div id="bottom">
+        <div class="circlebuttonleft"><div class="circle"></div></div>
         <h3>Recommended to you</h3>
         <div class="bottomcontainer">
-          <div class="circlebuttonleft"><div class="circle"></div></div>
-          <div>
-            <div class="pic"><img src="/assets/course-graphql.jpg" /></div>
+          <!---->
+          <div class="card">
+            <div class="pic">
+              <img src="/assets/course-graphql.jpg" class="box-image" />
+            </div>
             <div class="description"></div>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <!---->
+          <div class="card">
+            <div class="pic">
+              <img src="assets/course-javascript.jpg" class="box-image" />
+            </div>
+            <div class="description"></div>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <!---->
+          <div class="card">
+            <div class="pic">
+              <img src="assets/course-node.jpg" class="box-image" />
+            </div>
+            <div class="description"></div>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <!---->
+          <div class="card">
+            <div class="pic">
+              <img src="assets/course-laravel.jpg" class="box-image" />
+            </div>
+            <div class="description"></div>
           </div>
-          <div class="circlebuttonright"><div class="circle"></div></div>
         </div>
+        <div class="circlebuttonright"><div class="circle"></div></div>
+        <div class="circlebuttonleft"><div class="circle"></div></div>
         <h3>Most Popular</h3>
         <div class="bottomcontainer">
-          <div class="circlebuttonleft"><div class="circle"></div></div>
           <div></div>
           <div></div>
           <div></div>
           <div></div>
-          <div class="circlebuttonright"><div class="circle"></div></div>
         </div>
+        <div class="circlebuttonright"><div class="circle"></div></div>
+        <div class="circlebuttonleft"><div class="circle"></div></div>
         <h3>Trending</h3>
         <div class="bottomcontainer">
-          <div class="circlebuttonleft"><div class="circle"></div></div>
           <div></div>
           <div></div>
           <div></div>
           <div></div>
-          <div class="circlebuttonright"><div class="circle"></div></div>
         </div>
+        <div class="circlebuttonright"><div class="circle"></div></div>
         <hr />
         <footer>
           <div id="allRights">© 2022 Geeks. All Rights Reserved.</div>

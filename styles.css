@@ -7,22 +7,36 @@ body {
   width: 100%;
 }
 #container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
 }
 header {
+  box-sizing: border-box;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  flex-grow: 1;
+  padding: 0.5em;
 }
-#topleft {
+#top-left {
   display: flex;
+  flex-direction: row;
   width: 50%;
   justify-content: space-around;
 }
-#topright {
+#logo {
+  width: 10%;
+}
+.toplink {
   display: flex;
-  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+#top-right {
+  display: flex;
   justify-content: space-around;
+  width: 220px;
 }
 #notes {
   width: 100px;
@@ -36,4 +50,66 @@ header {
   border-radius: 50%;
   background-image: url(assets/avatar-1.jpg);
   background-size: cover;
+}
+#top {
+  background-color: #7550fe;
+  position: relative;
+  height: 420px;
+  flex-grow: 4;
+}
+#topContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  margin-left: 3em;
+}
+#topContent h1 {
+  color: #fefeff;
+}
+#topContent p {
+  color: #bca8ff;
+}
+#bigimage {
+  position: absolute;
+  right: 0;
+  bottom: -4px;
+}
+#middle {
+  flex-grow: 1;
+}
+#bottom {
+  width: 80%;
+  margin: auto;
+}
+.bottomcontainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card {
+  border-radius: 10px;
+}
+.box-image {
+  width: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+#bottom {
+  flex-grow: 3;
+}
+
+#footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#allRights {
+  display: inline;
+}
+#bottomLinks {
+  display: inline-flex;
+  margin-left: 30%;
+  width: 40%;
+  justify-content: space-around;
 }
