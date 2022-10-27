@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+* {
+  font-family: Roboto;
+  margin: 0;
+}
+body {
+  width: 100%;
+}
+#container {
+  width: 100%;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#topleft {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+#topright {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+}
+#notes {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f5f4f8;
+}
+#profilepic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(assets/avatar-1.jpg);
+  background-size: cover;
+}
