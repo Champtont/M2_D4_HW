@@ -17,7 +17,7 @@ header {
   width: 100%;
   justify-content: space-between;
   flex-grow: 1;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 #top-left {
   display: flex;
@@ -26,27 +26,35 @@ header {
   justify-content: space-around;
 }
 #logo {
-  width: 10%;
+  width: 6%;
 }
 .toplink {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
 }
 #top-right {
   display: flex;
   justify-content: space-around;
-  width: 220px;
+  width: 110px;
 }
 #notes {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #f5f4f8;
 }
+#notes > svg {
+  position: absolute;
+}
 #profilepic {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-image: url(assets/avatar-1.jpg);
   background-size: cover;
@@ -63,7 +71,7 @@ header {
   justify-content: center;
   width: 40%;
   height: 100%;
-  margin-left: 3em;
+  margin-left: 8em;
 }
 #topContent h1 {
   color: #fefeff;
@@ -75,6 +83,23 @@ header {
   font-size: 20pt;
   line-height: 1.5em;
   margin-bottom: 1em;
+}
+.white {
+  background-color: #f5f4f8;
+  border-radius: 5px;
+  border: none;
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: 12pt;
+}
+.green {
+  background-color: #1acb98;
+  border-radius: 5px;
+  border: none;
+  padding: 1em 2em;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #f5f4f8;
 }
 #bigimage {
   position: absolute;
